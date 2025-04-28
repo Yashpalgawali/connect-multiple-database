@@ -4,9 +4,9 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 @Configuration
-@EnableJpaRepositories( basePackages = "comp.example.demo.postgres.repository",
+@EnableJpaRepositories( basePackages = "com.example.demo.postgres.repository",
 						entityManagerFactoryRef = "postgresEntityManagerFactory",
-						transactionManagerRef = "postgreTransactionManager")
+						transactionManagerRef = "postgresTransactionManager")
 public class PostgresRepositoryConfig {
 
 }
